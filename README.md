@@ -11,7 +11,7 @@ El Sistema de Gestión de Aerolíneas es una aplicación basada en Java que perm
    - Muestra el mensaje `"Aviones y vuelos inicializados"`.
 
 2. **Reservar un Asiento en un Vuelo** 🎟️
-   - Solicita al usuario seleccionar un vuelo y una clase (ejecutiva o turista).
+   - Solicita al usuario seleccionar un vuelo y una clase (business o turista).
    - Reserva un asiento en la clase y vuelo especificados.
    - Muestra los detalles de la reserva.
 
@@ -21,11 +21,11 @@ El Sistema de Gestión de Aerolíneas es una aplicación basada en Java que perm
 
 4. **Listar Pasajeros** 👥
    - Solicita al usuario seleccionar un vuelo.
-   - Muestra la lista de pasajeros en las clases ejecutiva y turista con un formato adecuado.
+   - Muestra la lista de pasajeros en las clases business y turista con un formato adecuado.
 
 5. **Mostrar Pasajeros Menores de una Cierta Edad** 👶
    - Solicita al usuario seleccionar un vuelo.
-   - Muestra la lista de pasajeros menores de 15 años en las clases ejecutiva y turista con un formato adecuado.
+   - Muestra la lista de pasajeros menores de 15 años en las clases business y turista con un formato adecuado.
 
 6. **Mostrar Ingresos del Vuelo** 💰
    - Solicita al usuario seleccionar un vuelo.
@@ -90,7 +90,7 @@ El Sistema de Gestión de Aerolíneas es una aplicación basada en Java que perm
 - **Avion**: Representa un avión con métodos para gestionar asientos y pasajeros.
 - **Vuelo**: Representa un vuelo con detalles como destino, fecha y avión asociado.
 - **Pasajero**: Representa un pasajero con detalles como nombre, pasaporte, teléfono, edad y equipaje.
-- **Clase**: Enum que representa la clase del asiento (`Ejecutiva` o `Turista`).
+- **Clase**: Enum que representa la clase del asiento (`business` o `Turista`).
 - **Azar**: Clase utilitaria para generar pasajeros aleatorios.
 
 ## 📄 Licencia
